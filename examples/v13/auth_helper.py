@@ -7,7 +7,7 @@ from bingads.service_client import ServiceClient
 from bingads.authorization import *
 from bingads.v13 import *
 
-from output_helper import output_bing_ads_webfault_error, output_webfault_errors, output_status_message
+from examples.v13.output_helper import output_bing_ads_webfault_error, output_webfault_errors, output_status_message
 
 # Required
 DEVELOPER_TOKEN='BBD37VB98' # Universal token for sandbox
