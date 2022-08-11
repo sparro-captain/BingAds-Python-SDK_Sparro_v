@@ -1,4 +1,4 @@
-from campaignmanagement_example_helper import *
+from examples.v13.campaignmanagement_example_helper import *
 import json
 
 # Common
