@@ -10,14 +10,15 @@ from bingads.v13 import *
 from examples.v13.output_helper import output_bing_ads_webfault_error, output_webfault_errors, output_status_message
 
 # Required
-DEVELOPER_TOKEN='BBD37VB98' # Universal token for sandbox
-ENVIRONMENT='sandbox' # If you use 'production' then you must also update the DEVELOPER_TOKEN value.
+DEVELOPER_TOKEN='116MNET0H6195397' # Universal token for sandbox
+ENVIRONMENT='production' # If you use 'production' then you must also update the DEVELOPER_TOKEN value.
 
 # The CLIENT_ID is required and CLIENT_STATE is recommended.
 # The REFRESH_TOKEN should always be in a secure location.
-CLIENT_ID='db41b09d-6e50-4f4a-90ac-5a99caefb52f'
+CLIENT_ID='8efcd295-aa71-4d37-a1eb-014333270682'
 CLIENT_STATE='ClientStateGoesHere'
-REFRESH_TOKEN="refresh.txt"
+REFRESH_TOKEN="M.R3_BAY.-CZN6T31x3HBE2RXxY2XVeJt1MeNmhKtNGBvAnIymt0Ac7lTjExvx207Q6aQHdaEZH95Ifg4gy0KSlheAJsMSWry2JU8m7vd69pyb57Z09mzd*1KimpoqXzQIvJXa*4lPiRS5JkDkxH2jxctCZXFh5br!tNNs2JVFN7T5fhQ7FEyhpw3LNdOczglB2Q5cu1PSvsnCTZ7YU*mCv5iQdIa7a*rpR*gmdUMv0TSXXaecIsSBOFWRmri2BWejTJ3BDsjfFomACkDmqBEaDCjGYevDM6xrmKpYd9ZKF8S!0TldhQzTZg!geIDtndpBmWDLMYgjQFbCCJflhOq13mcvx!fRh3WIQAITFiYsbVEuie8aXALpnQaTG3YzruoCYQb26nKSYA$$"
+# need to update refresh token 
 
 ALL_CAMPAIGN_TYPES=['Audience DynamicSearchAds Search Shopping']
 ALL_TARGET_CAMPAIGN_CRITERION_TYPES=['Age DayTime Device Gender Location LocationIntent Radius']
