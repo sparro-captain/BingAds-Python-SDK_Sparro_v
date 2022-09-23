@@ -17,8 +17,7 @@ ENVIRONMENT='production' # If you use 'production' then you must also update the
 # The REFRESH_TOKEN should always be in a secure location.
 CLIENT_ID='8efcd295-aa71-4d37-a1eb-014333270682'
 CLIENT_STATE='ClientStateGoesHere'
-REFRESH_TOKEN="M.R3_BAY.-CZN6T31x3HBE2RXxY2XVeJt1MeNmhKtNGBvAnIymt0Ac7lTjExvx207Q6aQHdaEZH95Ifg4gy0KSlheAJsMSWry2JU8m7vd69pyb57Z09mzd*1KimpoqXzQIvJXa*4lPiRS5JkDkxH2jxctCZXFh5br!tNNs2JVFN7T5fhQ7FEyhpw3LNdOczglB2Q5cu1PSvsnCTZ7YU*mCv5iQdIa7a*rpR*gmdUMv0TSXXaecIsSBOFWRmri2BWejTJ3BDsjfFomACkDmqBEaDCjGYevDM6xrmKpYd9ZKF8S!0TldhQzTZg!geIDtndpBmWDLMYgjQFbCCJflhOq13mcvx!fRh3WIQAITFiYsbVEuie8aXALpnQaTG3YzruoCYQb26nKSYA$$"
-# need to update refresh token 
+REFRESH_TOKEN="refresh.txt"
 
 ALL_CAMPAIGN_TYPES=['Audience DynamicSearchAds Search Shopping']
 ALL_TARGET_CAMPAIGN_CRITERION_TYPES=['Age DayTime Device Gender Location LocationIntent Radius']
