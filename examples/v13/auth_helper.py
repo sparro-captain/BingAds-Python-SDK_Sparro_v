@@ -15,7 +15,7 @@ ENVIRONMENT='production' # If you use 'production' then you must also update the
 
 # The CLIENT_ID is required and CLIENT_STATE is recommended.
 # The REFRESH_TOKEN should always be in a secure location.
-CLIENT_ID='8efcd295-aa71-4d37-a1eb-014333270682'
+CLIENT_ID='8b78950d-8729-43d1-b8a4-d3c21b0adbdc'
 CLIENT_STATE='ClientStateGoesHere'
 REFRESH_TOKEN="refresh.txt"
 
