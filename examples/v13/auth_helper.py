@@ -10,7 +10,7 @@ from bingads.v13 import *
 from examples.v13.output_helper import output_bing_ads_webfault_error, output_webfault_errors, output_status_message
 
 # Required
-DEVELOPER_TOKEN='116MNET0H6195397' # Universal token for sandbox
+DEVELOPER_TOKEN='116WLCS655759188' # Universal token for sandbox
 ENVIRONMENT='production' # If you use 'production' then you must also update the DEVELOPER_TOKEN value.
 
 # The CLIENT_ID is required and CLIENT_STATE is recommended.
