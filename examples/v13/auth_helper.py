@@ -75,17 +75,17 @@ def authenticate_with_oauth(authorization_data):
     
     #refresh_token=get_refresh_token()
     refresh_token = "M.R3_BAY.-Ca8YM3INSnHmmpODKg!02!mexTDJLmpM7PoFsQs3Vt5LhIOKRY6Ms*WraoH96WM4jhfEbK0fUmLumjAAzttxM2QX5GeCIKJ0TWT!SQHH6aWDBXNTpgz8MQy9jEFCBaH9LvSFsEMFqwNJKC7yuuk291bVyr5IAawKVpBT7W5cMdlpC!nda4RbCWKmgZmEkGWZh74DVhx4BlIUt2FJ5cd*1wTTPpDE2nZ5hSoTiHb8q5KYvTjMJl1Iqv7LKh9u9uD!Auo49cfmybA0nk3wjgGmrQ4G7YCv5A1A24UcEFNyKehgrUSTwYxd70KD*vWeoSywS4iH8uI1jW7wX7X6ZZ!gJ!WGZAsrNIU5JxXHqs*szcVo1FSxDuOjSkZmk0XpJpim9A$$"
-    
+    print(refresh_token)
     try:
         # If we have a refresh token let's refresh it
         if refresh_token is not None:
             authorization_data.authentication.request_oauth_tokens_by_refresh_token(refresh_token)
         else:
             request_user_consent(authorization_data)
-    except OAuthTokenRequestException:
-        # The user could not be authenticated or the grant is expired. 
-        # The user must first sign in and if needed grant the client application access to the requested scope.
-        request_user_consent(authorization_data)
+#     except OAuthTokenRequestException:
+#         # The user could not be authenticated or the grant is expired. 
+#         # The user must first sign in and if needed grant the client application access to the requested scope.
+#         request_user_consent(authorization_data)
             
 def request_user_consent(authorization_data):
     webbrowser.open(authorization_data.authentication.get_authorization_endpoint(), new=1)
