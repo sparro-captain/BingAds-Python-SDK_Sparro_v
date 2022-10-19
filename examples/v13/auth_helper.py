@@ -86,7 +86,8 @@ def authenticate_with_oauth(authorization_data):
 #         # The user could not be authenticated or the grant is expired. 
 #         # The user must first sign in and if needed grant the client application access to the requested scope.
 #         request_user_consent(authorization_data)
-            
+
+
 def request_user_consent(authorization_data):
     webbrowser.open(authorization_data.authentication.get_authorization_endpoint(), new=1)
     # For Python 3.x use 'input' instead of 'raw_input'
