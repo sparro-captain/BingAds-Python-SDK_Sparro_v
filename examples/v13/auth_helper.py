@@ -17,7 +17,7 @@ ENVIRONMENT='production' # If you use 'production' then you must also update the
 # The REFRESH_TOKEN should always be in a secure location.
 CLIENT_ID='8b78950d-8729-43d1-b8a4-d3c21b0adbdc'
 CLIENT_STATE='ClientStateGoesHere'
-REFRESH_TOKEN="refresh.txt"
+REFRESH_TOKEN="/content/BingAds-Python-SDK_Sparro_v/examples/v13/refresh.txt"
 
 ALL_CAMPAIGN_TYPES=['Audience DynamicSearchAds Search Shopping']
 ALL_TARGET_CAMPAIGN_CRITERION_TYPES=['Age DayTime Device Gender Location LocationIntent Radius']
