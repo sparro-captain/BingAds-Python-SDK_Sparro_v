@@ -17,7 +17,7 @@ ENVIRONMENT='production' # If you use 'production' then you must also update the
 # The REFRESH_TOKEN should always be in a secure location.
 CLIENT_ID='8b78950d-8729-43d1-b8a4-d3c21b0adbdc'
 CLIENT_STATE='ClientStateGoesHere'
-REFRESH_TOKEN="/content/BingAds-Python-SDK_Sparro_v/examples/v13/refresh.txt"
+# REFRESH_TOKEN="/content/BingAds-Python-SDK_Sparro_v/examples/v13/refresh.txt"
 
 ALL_CAMPAIGN_TYPES=['Audience DynamicSearchAds Search Shopping']
 ALL_TARGET_CAMPAIGN_CRITERION_TYPES=['Age DayTime Device Gender Location LocationIntent Radius']
@@ -73,7 +73,8 @@ def authenticate_with_oauth(authorization_data):
     # Uncomment this line if you want to store your refresh token. Be sure to save your refresh token securely.
     authorization_data.authentication.token_refreshed_callback=save_refresh_token
     
-    refresh_token=get_refresh_token()
+    #refresh_token=get_refresh_token()
+    refresh_token = "M.R3_BAY.-Ca8YM3INSnHmmpODKg!02!mexTDJLmpM7PoFsQs3Vt5LhIOKRY6Ms*WraoH96WM4jhfEbK0fUmLumjAAzttxM2QX5GeCIKJ0TWT!SQHH6aWDBXNTpgz8MQy9jEFCBaH9LvSFsEMFqwNJKC7yuuk291bVyr5IAawKVpBT7W5cMdlpC!nda4RbCWKmgZmEkGWZh74DVhx4BlIUt2FJ5cd*1wTTPpDE2nZ5hSoTiHb8q5KYvTjMJl1Iqv7LKh9u9uD!Auo49cfmybA0nk3wjgGmrQ4G7YCv5A1A24UcEFNyKehgrUSTwYxd70KD*vWeoSywS4iH8uI1jW7wX7X6ZZ!gJ!WGZAsrNIU5JxXHqs*szcVo1FSxDuOjSkZmk0XpJpim9A$$"
     
     try:
         # If we have a refresh token let's refresh it
